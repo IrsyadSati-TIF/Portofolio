@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohammad Irsyad Sati</title>
+        <link href="./output.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 lg:pl-36">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <a href="#home" class="font-semibold text-3xl text-dark block py-6 hover:text-primary">Portofolio</a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-top-right"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-right"></span>
+                        </button>
+                        <nav id="navMenu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">PortoFolio</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        
+        <!-- Hero Section Start -->
+        <section id="home" class="pt-23 pb-23 lg:pl-36">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-full self-center px-4 lg:w-1/2">
+                        <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua, 
+                        saya <span class="block font-bold text-dark text-3xl mt-1 lg:text-5xl">
+                        Mohammad Irsyad Sati</span></h1>
+                        <h2 class="font-medium text-secondary text-lg mb-3 lg:text-2xl">
+                        Fresh Graduate Teknik Informatika</h2>
+                        <p class="font-medium text-secondary text-justify mb-10 leading-relaxed">Saya seorang fresh graduate Teknik Informatika yang antusias di bidang pengembangan perangkat lunak, terutama dalam teknologi Augmented Reality (AR) dan pengembangan aplikasi berbasis Unity. Saya senang mengeksplorasi teknologi baru dan membangun solusi inovatif!</p>
+                        
+                        <a href="#contact" class="text-base font-semibold text-white bg-primary py-3 
+                        px-8 rounded-full hover:shadow-lg hover:bg-purple-400 transition duration-300 
+                        ease-in-out">Hubungi Saya</a>
+                    </div>
+                    <div class="flex w-full justify-center px-4 lg:w-1/2">
+                        <div class="relative pt-23 lg:pt-10">
+                            <div class="relative">
+                                <div class="absolute inset-0 bg-primary blur-xl opacity-50 rounded-xl"></div>
+                                    <img class="relative rounded-xl shadow-2xl hover:scale-120 transition-transform duration-500 ease-in-out" src="img/Irsyad_Depan.jpg" alt="Irsyad" width="250">
+                            </div>
+                            <div class="mt-10 flex items-center justify-center">
+                                <!-- Instagram -->
+                                <a href="https://www.instagram.com/irsyadsati?igsh=MXRjMzdnM2JseXk1Zg==" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a>
+            
+                                <!-- Github -->
+                                <a href="https://www.linkedin.com/in/mohammad-irsyad-sati-8a0275282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+            
+                                <!-- Tiktok -->
+                                <a href="https://www.tiktok.com/@boboiboy_ap1?_t=ZS-8uagAL65r8b&_r=1" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a> 
+            
+                                <!-- Twitter -->
+                                <a href="https://mobile.x.com/sati_irsya9668" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+        <!-- About Section Start -->
+        <section id="about" class="pt-23 pb-23 bg-slate-100 lg:pl-36">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-full pt-5 px-4 mb-10 lg:w-1/2">
+                        <h4 class="font-bold uppercase text-primary text-lg mb-2">Tentang Saya</h4>
+                        <h2 class="font-bold text-dark text-2xl mb-3 max-w-md lg:text-3xl">Kenapa Harus Memilih Saya?</h2>
+                        <P class="font-medium text-base text-secondary text-justify max-w-xl lg:text-lg">Saya merupakan individu yang cepat belajar dan memiliki motivasi diri, saya juga memiliki kemampuan beradaptasi yang memungkinkan saya untuk mempelajari hal-hal baru dengan cepat dan menikmati bekerja dalam tim. Saya juga sangat ingin mengembangkan kemampuan saya lebih lanjut melalui pengalaman profesional.</P>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 lg:pt-14">
+                        <h3 class="font-semibold text-dark text-2xl mb-3 lg:text-3xl">Pendidikan</h3>
+                        <div>
+                            <p class="font-semibold text-primary text-base text-justify mb- lg:text-lg">Universitas Brawijaya <span class="w-full font-medium ml-20 text-sm py-2 px-4 bg-primary text-white rounded-full lg:ml-78">2020-2025</span></p>
+                            <p class="font-medium text-secondary text-sm text-justify mt-3 mb-6 lg:text-base">Sarjana Teknik Informatika</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-primary text-base text-justify mb- lg:text-lg">SMAN 89 Jakarta Timur <span class="w-full font-medium ml-17 text-sm py-2 px-4 bg-primary text-white rounded-full lg:ml-75">2017-2020</span></p>
+                            <p class="font-medium text-secondary text-sm text-justify mt-3 mb-6 lg:text-base">Matematika dan Ilmu Pengetahuan Alam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Portofolio Section Start -->
+        <section id="portofolio" class="pt-23 pb-23 xl:w-10/12 xl:mx-auto">
+            <div class="container">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-10">
+                        <h4 class="font-semibold text-lg text-primary pt-3 mb-3 lg:text-2xl">Portofolio <span class="font-bold text-dark text-lg mb-3 lg:text-2xl">Project</span></h4>
+                        <p class="font-medium text-base text-secondary md:text-lg">Berikut adalah beberapa proyek yang telah saya kerjakan, mulai dari pengembangan aplikasi berbasis Augmented Reality hingga perancangan UI/UX dan website interaktif!</p>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 flex flex-wrap justify-center">
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-md shadow-md border-1 overflow-hidden mb-2">
+                            <img class="w-full h-70 hover:scale-105 transition-transform duration-300 ease-in-out" src="img/AR.png" alt="AR_Informasi" width="w-full">
+                        </div>
+                        <a class="font-semibold text-xl text-dark mt-5 mb-3 hover:text-primary" href="AR.html">Aplikasi Augmented Reality Informasi Gedung FILKOM UB</a>
+                        <p class="font-medium text-base text-secondary text-justify">Pengembangan aplikasi augmented reality untuk dapat menyajikan informasi gedung Fakultas Ilmu Komputer dengan metode SDLC waterfall.</p>
+                    </div>
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-md shadow-md border-1 overflow-hidden mb-2">
+                            <img class="w-full h-70 hover:scale-105 transition-transform duration-300 ease-in-out" src="img/uiux_text_2.jpg" alt="figma" width="w-full">
+                        </div>
+                        <a class="font-semibold text-xl text-dark mt-5 mb-3 hover:text-primary" href="https://www.figma.com/design/vXe1gBCcD5uw65AQpLZz8M/Untitled?node-id=0-1&t=VSM5MtkNFn3douSF-1" target="_blank">UI/UX Pemesanan Makanan Online</a>
+                        <p class="font-medium text-base text-secondary text-justify">Perancangan UI/UX aplikasi pemesanan makanan yang menarik dari halaman utama hingga halaman pembayaran.</p>
+                    </div>
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-md shadow-md border-1 overflow-hidden mb-2">
+                            <img class="w-full h-70 hover:scale-105 transition-transform duration-300 ease-in-out" src="img/AR.png" alt="Phobia_Therapy" width="w-full">
+                        </div>
+                        <a class="font-semibold text-xl text-dark mt-5 mb-3 hover:text-primary" href="AR1.html">Aplikasi Augmented Reality Phobia Therapy</a>
+                        <p class="font-medium text-base text-secondary text-justify">Pengembangan aplikasi augmented reality untuk dapat membantu mengurangi rasa takut/fobia terhadap hewan tertentu (laba-laba, kecoa, dan lebah) dengan menggunakan marker based tracking dan markerless tracking (ground plan).</p>
+                    </div>
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-md shadow-md border-1  overflow-hidden mb-2">
+                            <img class="w-full h-70 hover:scale-105 transition-transform duration-300 ease-in-out" src="img/preview.jpg" alt="web" width="w-full">
+                        </div>
+                        <a class="font-semibold text-xl text-dark mt-5 mb-3 hover:text-primary" href="#">Website Laporan Siswa Olimpiade</a>
+                        <p class="font-medium text-base text-secondary">Pengembangan website untuk dapat menampilkan data json yang berisi data siswa olimpiade (SMP, SMA, SMK).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Portofolio Section End -->
+
+         <!-- Contact Me Section Start -->
+        <Section id="contact" class="pt-23 pb-23 bg-slate-100">
+            <div class="container xl:w-10/12 xl:mx-auto">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-10">
+                        <h4 class="font-semibold text-lg text-primary pt-3 mb-3 lg:text-2xl">Contact <span class="font-bold text-dark text-lg mb-3 lg:text-2xl">Me</span></h4>
+                        <p class="font-medium text-md text-secondary md:text-lg">Tertarik untuk berkolaborasi atau memiliki pertanyaan? Jangan ragu untuk menghubungi saya melalui formulir di bawah ini!</p>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="w-full lg:w-2/3 lg:mx-auto">
+                        <div class="w-full px-4 mb-8">
+                            <label for="name" class="text-base text-primary font-bold">Nama</label>
+                            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                        </div>
+                        <div class="w-full px-4 mb-8">
+                            <label for="email" class="text-base text-primary font-bold">Email</label>
+                            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                        </div>
+                        <div class="w-full px-4 mb-8">
+                            <label for="pesan" class="text-base text-primary font-bold">Pesan</label>
+                            <textarea type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                        </div>
+                        <div class="w-full px-4">
+                            <button class="w-full text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </Section>
+         <!-- Contact Me Section End -->
+
+        <!-- TOMBOL KEMBALI -->
+        
+        <a href="#home" class="fixed hidden justify-center items-center bottom-3 right-3 z-[9999] text-base text-white bg-primary 
+                p-3 rounded-full hover:shadow-lg hover:bg-purple-400 transition duration-300 
+                ease-in-out rotate-180" id="toTop"><span class="block h-3 w-3 mb-2 -rotate-135 border-t-2 border-l-2"></span></a>
+        
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
